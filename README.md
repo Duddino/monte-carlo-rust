@@ -1,9 +1,11 @@
 # monte-carlo-rust
 Visualization of Monte Carlo made with amethyst
 
-## How to run
+## How to install
 
-To run the game, run the following command, which defaults to the `vulkan` graphics backend:
+Clone the repository.
+
+To run the game, run the following command on the directory where you cloned the repository, which defaults to the `vulkan` graphics backend:
 
 ```bash
 cargo run
