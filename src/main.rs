@@ -87,7 +87,7 @@ fn initialize_pi(world: &mut World) {
         .create_entity()
         .with(text_transform)
         .with(UiText::new(
-            font.clone(),
+            font,
             "0".to_string(),
             [1., 1., 1., 1.],
             50.,
