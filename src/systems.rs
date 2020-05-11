@@ -1,12 +1,12 @@
 use amethyst::{
-    assets::{AssetStorage, Handle, Loader},
+    assets::Handle,
     core::Transform,
     derive::SystemDesc,
     ecs::{
-        Component, DenseVecStorage, Entities, HashMapStorage, Join, NullStorage, Read, ReadExpect,
-        ReadStorage, System, SystemData, World, WorldExt, WriteStorage,
+        Component, Entities, HashMapStorage, Join, NullStorage, ReadExpect, ReadStorage, System,
+        SystemData, WriteStorage,
     },
-    renderer::{ImageFormat, SpriteRender, SpriteSheet, SpriteSheetFormat, Texture},
+    renderer::{SpriteRender, SpriteSheet},
     ui::UiText,
 };
 use rand::Rng;

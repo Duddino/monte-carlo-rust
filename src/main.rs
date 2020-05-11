@@ -1,18 +1,13 @@
 use amethyst::{
     assets::{AssetStorage, Handle, Loader},
     core::{Transform, TransformBundle},
-    derive::SystemDesc,
-    ecs::{
-        Component, DenseVecStorage, Entities, Entity, Join, NullStorage, Read, ReadStorage, System,
-        SystemData, World, WorldExt, WriteStorage,
-    },
+    ecs::{Entity, World, WorldExt},
     input::{InputBundle, StringBindings},
     prelude::*,
     renderer::{
         plugins::{RenderFlat2D, RenderToWindow},
         types::DefaultBackend,
-        Camera, ImageFormat, RenderingBundle, SpriteRender, SpriteSheet, SpriteSheetFormat,
-        Texture,
+        Camera, ImageFormat, RenderingBundle, SpriteSheet, SpriteSheetFormat, Texture,
     },
     ui::{Anchor, RenderUi, TtfFormat, UiBundle, UiText, UiTransform},
     utils::application_root_dir,
